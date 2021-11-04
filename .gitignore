@@ -1,0 +1,4 @@
+gapit_output/*
+.Rhistory
+.DS_Store
+.ipynb_checkpoints/

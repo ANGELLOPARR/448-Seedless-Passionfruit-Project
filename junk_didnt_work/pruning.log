@@ -1,0 +1,51 @@
+PLINK v1.90b6.24 64-bit (6 Jun 2021)
+Options in effect:
+  --allow-extra-chr
+  --double-id
+  --geno 0.01
+  --indep-pairwise 50 5 0.5
+  --maf 0.05
+  --out pruning
+  --vcf Dataset1_Complete_MS.vcf
+
+Hostname: Angellos-MacBook-Pro.local
+Working directory: /Users/angelloparr/Documents/csc448/project
+Start time: Tue Nov 16 12:15:47 2021
+
+Random number seed: 1637093747
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+--vcf: pruning-temporary.bed + pruning-temporary.bim + pruning-temporary.fam
+written.
+486302 variants loaded from .bim file.
+165 people (0 males, 0 females, 165 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pruning.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 165 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.993729.
+48872 variants removed due to missing genotype data (--geno).
+307077 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+130353 variants and 165 people pass filters and QC.
+Note: No phenotypes present.
+Pruned 1363 variants from chromosome 27, leaving 778.
+Pruned 6433 variants from chromosome 28, leaving 2605.
+Pruned 2492 variants from chromosome 29, leaving 1104.
+Pruned 11914 variants from chromosome 30, leaving 4603.
+Pruned 4385 variants from chromosome 31, leaving 1756.
+Pruned 2082 variants from chromosome 32, leaving 974.
+Pruned 8480 variants from chromosome 33, leaving 3240.
+Pruned 4290 variants from chromosome 34, leaving 1822.
+Pruned 3176 variants from chromosome 35, leaving 1659.
+Pruned 5725 variants from chromosome 36, leaving 2305.
+Pruned 5421 variants from chromosome 37, leaving 2389.
+Pruned 8223 variants from chromosome 38, leaving 3415.
+Pruned 6874 variants from chromosome 39, leaving 3025.
+Pruned 5814 variants from chromosome 40, leaving 2441.
+Pruned 8287 variants from chromosome 41, leaving 3305.
+Pruned 6903 variants from chromosome 42, leaving 2817.
+Pruned 89 variants from chromosome 43, leaving 164.
+Pruning complete.  91951 of 130353 variants removed.
+Marker lists written to pruning.prune.in and pruning.prune.out .
+
+End time: Tue Nov 16 12:15:49 2021
