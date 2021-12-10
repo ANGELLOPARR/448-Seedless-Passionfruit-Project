@@ -9,7 +9,8 @@ Because of GitHub's big data limit, we can't upload files > 100 MB. Thus, you'll
 
 2. Under "Supplementary Materials" in the "Associated Data" section near the top, scroll all the way down to **S1 Table** and download the linked spreadsheet. Alternatively, [this download link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5849340/bin/pgen.1007217.s010.xlsx) should also work. This is the phenotype data for our yeast samples.
 
-3. 
+3. To get the Gzipped VCF file for SNPs, head over to [EBI accession #: ERZ486690](https://www.ebi.ac.uk/ena/browser/view/ERZ486690), click on the check box next to `Dataset1_Complete_MS.vcf.gz` and then click `Download selected files`
+    * After this is done and you have it locally, you should decompress it (it's gzipped) with the command `gzip -d Dataset1_Complete_MS.vcf.gz` to get just the VCF.
 
 ## Setting up the data
 There's a few steps to do before we can run the GWAS pipeline.
