@@ -2,3 +2,5 @@ gapit_output/*
 .Rhistory
 .DS_Store
 .ipynb_checkpoints/
+Dataset1_Complete_MS.vcf
+yeast_data.hmp.txt
